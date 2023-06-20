@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+    
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             
+             x:Class="Demo_App_Xamarin_1.MainPage">
+
+    <!-- Creamos un contenedor con los parametros necesarios -->
+
+    <!-- El StackLayout nos permite reoganizar los elementos de la app ya sea de una forma vertical o horizontal -->
+
+    <!-- Definimos el color de fondo de la app con la propiedad background color, tambien definimos los bordes y el margen con la propiedad padding y la propiedad margin. Asi como la Orientation Horizontal,tambien definimos el espacio entre los elementos con la propiedad spacing -->
+
+    <StackLayout BackgroundColor="PaleVioletRed" Padding="30,30,30,30" Margin="10,10,10,10" Spacing="10" Orientation="Horizontal">
+
+        <!-- Definimos las propiedades background color de cada label, y definimos el texto que contendran con la propiedad text -->
+
+        <Label BackgroundColor="Brown" Text="Cheems: el nombre del meme deriva de la palabra ‘cheemsburger’, la cual es una pronunciación incorrecta de la palabra en inglés ‘cheeseburger’, que quiere decir en español ‘hamburguesa con queso’."/>
+
+        <Label BackgroundColor="Chocolate" Text="Características: Se suele conocer a Cheems como el perro de los memes, sobre todo de aquellos de Swole Doge vs. Cheems o el meme del perro fuerte y el perro débil, una evolución del meme Chad vs Virgin, aunque los memes de este perro son muy variados"/>
+
+        <Label BackgroundColor="LightSteelBlue" Text="Historia: La foto original de Cheems data del año 2017, pero llegó a su máxima popularidad recién el en año 2019, en la plataforma Reddit. Cheems se hizo viral durante el confinamiento por la pandemia de COVID-19, dado que suele mostrarse ansioso o asustado, reflejando el estado anímico de la población en ese momento. Sin embargo, a diferencia de muchos otros fenómenos virales, el meme de Cheems ha conseguido ser duradero y mantener su relevancia a pesar del tiempo."/>
+
+    </StackLayout>
+
+</ContentPage>
